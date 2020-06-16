@@ -14,10 +14,10 @@
 for(let hour=0; hour<24 ; hour++) {
     timeToEat=((hour<22 && hour>5) && (hour !=7 && hour!=13 && hour!=18))
     timeToTrain=(hour==7 || hour==13 || hour==18)
-  if(timeToEat== true){
-      console.log(`It's ${hour}h. Time to train!`)
-  }
-  else if(timeToTrain== true){
-      console.log(`It's ${hour}h. Time to eat!`)}
-      else(console.log(`It's ${hour}h. Time to sleep!`))
+    if(timeToEat== true){
+        console.log(`It's ${hour}h. Time to train!`)
+    }
+    else if(timeToTrain== true){
+        console.log(`It's ${hour}h. Time to eat!`)}
+        else(console.log(`It's ${hour}h. Time to sleep!`))
 }
