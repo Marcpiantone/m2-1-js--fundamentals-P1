@@ -32,9 +32,9 @@
 ## Question 4: Which of the following expressions are truthy?
 
 1. (x) !0
-2. (x) !1
+2. ( ) !1
 3. (x) -1
-4. (x) !"hello!"
+4. ( ) !"hello!"
 5. ( ) null
 6. (x) !undefined
 7. (x) !NaN
@@ -45,7 +45,7 @@
 2. ( ) { 'hello' }
 3. (x) { name: 'I am fruit' }
 4. (x) {'brand-name': 'Dior' }
-5. (x) { brand-name: 'Channel' }
+5. ( ) { brand-name: 'Channel' }
 6. (x) { cool_name: 'bob' + ' Dylan', age: 25 }
 
 ## Question 6: For each array, specify the number of elements and the type of each element.
